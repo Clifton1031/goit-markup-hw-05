@@ -29,6 +29,7 @@ body {
 
 .inline {
     display: inline-flex;
+    padding-left: 156px;
 }
 .logo {
     text-transform: uppercase;
@@ -68,8 +69,21 @@ body {
 
 .active {
     color: var(--ocean);
-    padding-left: 26px;
+    /*padding-left: 26px;*/
 }
+
+.active::after {
+content: " ";
+display: block;
+height: 4px;
+width: 100%;
+border-radius: 2px;
+background-color: var(--iris);
+position: relative;
+top: 15px;
+}
+
+
 
 .active-cntc {
     padding-right: 300px;
@@ -299,6 +313,7 @@ background-color: var(--white);
     line-height: 60px;/* 107.143% */
     letter-spacing: 1.12px;
     padding-top: 188px;
+    margin: 0;
 
 }
 
