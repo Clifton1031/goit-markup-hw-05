@@ -498,7 +498,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    
+    opacity: 0;
 }
 
 .project-image {
@@ -518,6 +518,10 @@ ul {
     padding-right: 32px;
 }
 
+.project:hover .project-image-caption{
+    opacity: 1;
+    
+}
 /*End of Portfolio Images*/
 
 /*End of Portfolio Main Styling*/
